@@ -1,7 +1,7 @@
 import { AccordionBody, AccordionHeader } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 
-function BasicExample() {
+function Form () {
   return (
     <><div><h1>Mentions légales</h1></div>
     <hr />
@@ -45,4 +45,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Form;

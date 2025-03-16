@@ -1,6 +1,6 @@
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import Profilgit from "../components/profilgit";
+import Footer from '../components/footer';
+import Navbar from '../components/navbar';
+import Profilgit from '../components/profilgit';
 
 const Profilgithub =() =>{
     return(

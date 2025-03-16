@@ -1,14 +1,14 @@
 
 import './App.css';
 import Navbar from './components/navbar';
-import Home from "./pages/home";
-import Contact from "./pages/contact";
-import Services from "./pages/services";
-import Portfolio from "./pages/portfolio";
-import Profilgithub  from "./pages/profilgithub";
-import Mentionlegale from "./pages/mentionlegale";
-import reactRouterDom, { BrowserRouter,Route } from 'react-router-dom';
-import Routes from "react-router-dom";
+import Home from './pages/home';
+import Contact from './pages/contact';
+import Services from './pages/services';
+import Portfolio from './pages/portfolio';
+import Profilgithub  from './pages/profilgithub';
+import Mentionlegale from './pages/mentionlegale';
+import { BrowserRouter,Route } from 'react-router-dom';
+import Routes from 'react-router-dom';
 import Main from './components/main';
 import Footer from './components/footer';
 

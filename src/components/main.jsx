@@ -1,4 +1,4 @@
-import { ProgressBar } from "react-bootstrap"
+import { ProgressBar } from "react-bootstrap";
 const Main = ()=> {
 
   return (

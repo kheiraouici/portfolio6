@@ -1,4 +1,4 @@
-export default function Navbar () {
+ function Navbar () {
     return <nav className="nav">
         <a href="/" className="site-title">JOHN DOE</a>
         <ul>
@@ -23,3 +23,4 @@ export default function Navbar () {
         </ul>
     </nav>
 }
+export default Navbar

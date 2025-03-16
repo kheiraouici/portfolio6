@@ -11,11 +11,7 @@ import reactRouterDom, { BrowserRouter,Route } from 'react-router-dom';
 import Routes from "react-router-dom";
 import Main from './components/main';
 import Footer from './components/footer';
-import Form from './components/form';
-import Realisation from './components/realisation';
-import Serv from './components/serv';
-import Profilgit from './components/profilgit';
-import Conct from './components/conct';
+
 
 
 
@@ -26,11 +22,7 @@ function App (){
     <>
     <Navbar/>
     <Main/>
-    <Form/>
-    <Realisation/>
-    <Serv/>
-    <Profilgit/>
-    <Conct/>
+    
     <Footer/>
 
     <Routes>

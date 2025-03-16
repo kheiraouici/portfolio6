@@ -1,7 +1,14 @@
-export default function Home ()
-{
-    return  (
-        <h1>Home</h1>
-    ) 
-    
+import { Accordion } from "react-bootstrap";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+
+const Mentionlegale =() =>{
+    return(
+      <>
+      <Navbar/>
+      <Accordion/>
+      <Footer/>
+      </>
+    )
 }
+export default Mentionlegale

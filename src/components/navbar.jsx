@@ -1,7 +1,7 @@
  import { Link } from "react-router-dom/cjs/react-router-dom.min"
  function Navbar () {
     return <nav className="nav">
-        <a href="/" className="site-title">JOHN DOE</a>
+        <link to="/" className="site-title">JOHN DOE</link>
         <ul>
             <li>
                 <link to="/home">home</link>

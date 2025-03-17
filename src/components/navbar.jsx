@@ -1,25 +1,25 @@
- import { Link } from "react-router-dom/cjs/react-router-dom.min"
+ import { Link } from "react-router-dom/cjs/react-router-dom.min";
  function Navbar () {
     return <nav className="nav">
-        <link to="/" className="site-title">JOHN DOE</link>
+        <a href="/" className="site-title">JOHN DOE</a>
         <ul>
             <li>
-                <link to="/home">home</link>
+                <a href="/home">home</a>
             </li>
             <li>
-                <link to="/contact">contact</link>
+                <a href="/contact">contact</a>
                 </li>
                 <li>
-                    <link to="/service">service</link>
+                    <a href="/service">service</a>
                 </li>
                 <li>
-                <link to="/portfolio">portfolio</link>
+                <a href="/portfolio">portfolio</a>
                 </li>
                 <li>
-                    <link to="/profilgithub">profil github</link>
+                    <a href="/profilgithub">profil github</a>
                 </li>
                 <li>
-                    <link to="/mentionlegales">Mention légales</link>
+                    <a href="/mentionlegales">Mention légales</a>
                 </li>
         </ul>
     </nav>

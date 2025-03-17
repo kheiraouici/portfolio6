@@ -1,4 +1,3 @@
- import { Link } from "react-router-dom/cjs/react-router-dom.min";
  function Navbar () {
     return <nav className="nav">
         <a href="/" className="site-title">JOHN DOE</a>

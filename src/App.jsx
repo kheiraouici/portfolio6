@@ -34,7 +34,8 @@ function App (){
      <Route path="./services" element={<Services/>}></Route>
     
     </Routes>
-   </Router><Footer/>
+   </Router>
+   <Footer/>
   
     
     </>

@@ -25,6 +25,7 @@ function App (){
     <Main/>
     
     <Footer/>
+    <Router>
     <Routes>
       <div>
      <Route path="./pages/home" element={<Home/>}></Route>
@@ -35,7 +36,7 @@ function App (){
      <Route path="./services" element={<Services/>}></Route>
    </div> 
     </Routes>
-   
+   </Router>
     </>
   )
 }

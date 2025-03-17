@@ -27,14 +27,13 @@ function App (){
     <Footer/>
     <Router>
     <Routes>
-      <div>
      <Route path="./pages/home" element={<Home/>}></Route>
      <Route path="./pages/contact" element={<Contact/>}></Route>
      <Route path="./mentionlegale" element={<Mentionlegale/>}></Route>
      <Route path="./portfolio" element={<Portfolio/>}></Route>
      <Route path="./profilgithub" element={<Profilgithub/>}></Route>
      <Route path="./services" element={<Services/>}></Route>
-   </div> 
+    
     </Routes>
    </Router>
     </>

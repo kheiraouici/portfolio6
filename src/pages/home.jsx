@@ -1,5 +1,5 @@
 import Footer from  '../components/footer';
-import Main from '../components/main';
+import Main from '../components/mai';
 import Navbar from '../components/navbar';
 
 const Home =() =>{

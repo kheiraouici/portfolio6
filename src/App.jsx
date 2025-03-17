@@ -1,16 +1,17 @@
-
+import './index' ;
 import './App.css';
 import Navbar from './components/navbar';
+import Main from './components/main';
+import Footer from './components/footer';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Profilgithub  from './pages/profilgithub';
 import Mentionlegale from './pages/mentionlegale';
-import { BrowserRouter,Route } from 'react-router-dom';
-import Routes from 'react-router-dom';
-import Main from './components/main';
-import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
 
 
 
@@ -24,7 +25,6 @@ function App (){
     <Main/>
     
     <Footer/>
-
     <Routes>
       <div>
      <Route path="./pages/home" element={<Home/>}></Route>
@@ -34,7 +34,8 @@ function App (){
      <Route path="./profilgithub" element={<Profilgithub/>}></Route>
      <Route path="./services" element={<Services/>}></Route>
    </div> 
-   </Routes>
+    </Routes>
+   
     </>
   )
 }

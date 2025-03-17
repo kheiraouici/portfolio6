@@ -9,7 +9,7 @@ import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Profilgithub  from './pages/profilgithub';
 import Mentionlegale from './pages/mentionlegale';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 
 
 
@@ -25,7 +25,8 @@ function App (){
     <Main/>
     
     <Router>
-    <Routes>
+      <Switch>
+    
      <Route path="./pages/home" element={<Home/>}></Route>
      <Route path="./pages/contact" element={<Contact/>}></Route>
      <Route path="./mentionlegale" element={<Mentionlegale/>}></Route>
@@ -33,8 +34,11 @@ function App (){
      <Route path="./profilgithub" element={<Profilgithub/>}></Route>
      <Route path="./services" element={<Services/>}></Route>
     
-    </Routes>
+    
+    </Switch>
    </Router>
+
+
    <Footer/>
   
     
